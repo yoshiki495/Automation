@@ -152,11 +152,11 @@ alias bys='cd /Users/a13232/monaco-web;grunt nodemon;'
 alias nl='npm list --depth=0 -g'
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 
-alias git all=
-'git add *
-git commit -m "fix
-git push -u origin main'
-
+function gish(){
+    git add *
+    git commit -m "fix"
+    git push -u origin main
+}
 
 # suffix alias
 setopt auto_cd
